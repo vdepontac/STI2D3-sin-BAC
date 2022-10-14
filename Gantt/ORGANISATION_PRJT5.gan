@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-03-21" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="3.1.3100" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="167" order="0"/>
+        <field id="tpd4" name="Date de début" width="65" order="1"/>
+        <field id="tpd5" name="Date de fin" width="64" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#ff6666 #ff00ff #9999ff #006666 #ffff00 #00cccc #0000ff #66ff66 #999999 #ff0000]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Gantt" color="#66ff66" meeting="false" start="2022-03-18" duration="2" complete="0" thirdDate="2022-03-14" thirdDate-constraint="0" expand="true">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" name="idée" color="#00cccc" meeting="false" start="2022-03-22" duration="5" complete="0" thirdDate="2022-03-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Réalisation, amélioration d'un produit. Cahier des charges, performances initiales, phasage. [DUREE_INITIALE_9H_3D]]]>
+            </notes>
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="18" name="Recherches" color="#0000ff" meeting="false" start="2022-03-29" duration="5" complete="0" thirdDate="2022-03-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Recherches d'idées, conception préliminaires
+
+Description fonctionnelle, concept, planning et répartition des tâches (hors Gantt), créativité]]>
+            </notes>
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="27" name="Revue" color="#9999ff" meeting="false" start="2022-04-05" duration="1" complete="0" thirdDate="2022-03-21" thirdDate-constraint="0" expand="true">
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" name="Conception" color="#006666" meeting="false" start="2022-04-06" duration="28" complete="0" thirdDate="2022-03-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Conception détaillée, simulation
+
+Dossier de conception, maquette numérique, performances simulées
+
+####################
+
+Maquettage
+
+Sous ensemble fonctionnel réalisé et intégré, protocole de test]]>
+            </notes>
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="41" name="Vacances" color="#999999" meeting="false" start="2022-04-11" duration="10" complete="0" thirdDate="2022-03-11" thirdDate-constraint="0" expand="true"/>
+        <task id="28" name="Revue" color="#9999ff" meeting="false" start="2022-05-16" duration="1" complete="0" thirdDate="2022-03-21" thirdDate-constraint="0" expand="true">
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="31" name="Tests" color="#ff6666" meeting="false" start="2022-05-17" duration="8" complete="0" thirdDate="2022-03-21" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Tests et validation
+
+Bilan technique, performances mesurées, écarts, cause des écarts, proposition d'amélioration]]>
+            </notes>
+            <depend id="37" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="37" name="Restitution" color="#ff0000" meeting="false" start="2022-05-27" duration="1" complete="0" thirdDate="2022-04-15" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Restitution
+
+Bilan des performances obtenues au regard du cahier des charges]]>
+            </notes>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

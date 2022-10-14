@@ -1,0 +1,43 @@
+Cahier des charges
+
+
+
+ “Gestion ”
+besoin initial : 
+transformer le robot Mbot en robot sumo apte au combat
+créer un compétition en 2 groupes de chaque classe
+problèmes techniques à résoudre
+Comment mettre en place sur le robot une structure qui permettra de protéger la totalité du robot lors de l’attaque ?  
+Comment adapter et implanter un Smartphone sur le robot pour filmer et visualiser le combat ?
+Comment rendre le robot autonome en énergie (énergie verte) sans utiliser de piles rechargeables ?
+Comment faire pour que le robot reste dans la zone de combat ?
+
+production finale :
+prototype d’une nouvelle re-conception du robot Mbot
+maquette des éléments et accessoires à adapter sur la nouvelle structure
+séquence de combat filmée par un téléphone portable 
+
+ Objectif du projet 
+Modifier un robot Mbot pour qu’il soit apte à combattre sur le terrain 
+qu’il utilise une énergie verte 
+qu’il ait une structure protectrice
+Qu’il reste dans la zone de combat
+
+Fonctionnement 
+
+Le robot pourra aller dans tous les sens que nous voudrions. 
+Il fonctionnera à l'énergie …….
+Le robot sera équipé d’un porte téléphone, fait par solidworks, pour filmer la totalité du combat.
+il sera aussi muni d’une structure protectrice 
+
+
+
+
+
+
+
+
+Hugo COUPE: vert
+Matthias DANCOISNE: bleu
+Paul HULLOUX: violet
+Vladislaw DE PONTAC: orange

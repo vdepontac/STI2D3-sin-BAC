@@ -1,0 +1,22 @@
+Cahier des charges
+
+Gestion de recharge de véhicules électriques, avec alerte de niveau de batterie
+
+Besoin initial
+
+	Visionner le niveau de batterie lors du branchement
+	Alerter l'utilisateur sur son smartphone du nv de chargement
+
+Production finale
+
+	Modélisation du parking réservé aux véhicules électriques
+	Création de l'interface de commande de la bonne de charge
+
+Objectif du projet
+
+	Alerter le possesseur de véhicule de batterie sur le niveau de batterie de son véhicule
+
+Fonctionnement
+
+	Utilisation de ponts diviseurs pour adapter une batterie de voiture à une carte arduino ou raspberry pi
+
